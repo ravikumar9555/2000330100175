@@ -11,12 +11,12 @@ const TrainDataComponent = () => {
   const login = async () => {
     try {
       const result = await axios.post("http://20.244.56.144/train/auth", {
-        companyName: "Train",
+        companyName: "Train Central",
         clientID: "4482aacb-b053-450f-ae5e-f27993578d55",
         clientSecret: "WeqXXYMdxTRsqOTD",
-        ownerName: "Yash",
-        ownerEmail: "2000330100264@rkgit.edu.in",
-        rollNo: "264",
+        ownerName: "Ravi Kumar",
+        ownerEmail: "ravikumar7518989121@gmail.com",
+        rollNo: "2000330100175",
       });
 
       localStorage.setItem("token", result.data.access_token);
