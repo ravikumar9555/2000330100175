@@ -40,7 +40,7 @@ return (
     <h1></h1>
     <CardContent>
         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-        <h1 className='text-center'>Train Management System</h1>
+        <h1 class='text-center'>Train Management System</h1>
         </Typography>
      </CardContent>
 
